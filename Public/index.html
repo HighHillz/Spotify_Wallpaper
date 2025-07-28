@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spotify Wallpaper</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitcount Prop Single">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+    </head>
+
+    <body>
+        <!-- <div id="progress"></div> -->
+
+        <div id="song-info">
+            <div id="title" style="display:flex;">
+                <img id="album-art" alt="Cover" crossorigin="anonymous" src="/Misc/no_song.png" style="width:75px; height:75px; border-radius:12px; border: solid 1px gray;">
+                <div id="text-cont" style="padding-left: 30px;">
+                    <p id="name">Fetching song...</p>
+                    <p id="credits"></p>
+                </div>
+            </div>
+            <p><span id="time"></span></p>
+            <p>Album: <b><span id="album"></span></b></p>
+            <p>Album creator: <b><span id="artists"></span></b></p>
+            <p>Released: <b><span id="release"></span></b></p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
