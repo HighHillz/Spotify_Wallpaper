@@ -43,12 +43,12 @@ async function fetchNowPlaying() {
     const song = data.item;
 
     if (song && song.name) {
-      displayDetails(data, song);
     } else if (data.currently_playing_type === "ad") {
       nameContainer.innerHTML = "😬 Advertisement";
     } else {
       nameContainer.innerHTML = "🔴 Unknown";
     }
+    displayDetails(data, song);
 
   } catch (err) {
     console.error(err);

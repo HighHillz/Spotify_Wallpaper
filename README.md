@@ -4,7 +4,8 @@ A lively wallpaper simulation built using JavaScript that displays the current s
 
 ## Stats
 
-![Status](https://img.shields.io/badge/Status-In%20Development-yellow.svg)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
+![Status](https://img.shields.io/badge/Status-Completed-green.svg)
 
 ## File Structure
 ```bash
@@ -33,19 +34,11 @@ node server.js
 - Make sure Spotify is running on your desktop.
 - **Note:** Token expires after an hour after running the command. To refresh it, re-run the node command and click on the link.
 
-## Inspiration
-Whenever I listened to songs on Spotify, I had always wanted to know the details of the song including its release data because it talks a lot about a song. Moreover, each song has its own tone. A colour would help bringing that out. Sometimes, its the most dominant colour of the album picture, or it changes by mood.
-<br>
-That was when I realised I can build a super cool wallpaper thats admirable like the Sky wallpaper, but room for more interaction and peace.
-
 ## Roadmap
 - [x] Connecting to server
 - [x] Displaying details
 - [x] Song card
 - [x] Adaptive colours
-- [ ] Card movement
-- [ ] Next/Previous controls
-- [ ] Playlist/Album
 
 ## Contribution
 Feel free to make an edit or change to this project to improve its stability. You may do so by first pulling a request or an issue to talk about it. All are welcome!
